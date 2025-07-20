@@ -24,6 +24,9 @@ async function bootstrap() {
       forbidNonWhitelisted: true,
     })
   );
+
+  console.log('Starting Auth Microservice...');
+  
   
   await app.listen(  );
   logger.log(`Auth Microservice running on port ${ envs.port }`)
