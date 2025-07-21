@@ -24,8 +24,6 @@ async function bootstrap() {
       forbidNonWhitelisted: true,
     })
   );
-
-  console.log('Starting Auth Microservice...');
   
   
   await app.listen(  );
