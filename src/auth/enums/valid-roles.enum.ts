@@ -6,5 +6,6 @@ export enum ValidRoles {
     supervisor = 'supervisor',
     superUser = 'superUser',
     auditor = 'auditor',
+    auditorSelector = 'auditor-selector',
 
 }
